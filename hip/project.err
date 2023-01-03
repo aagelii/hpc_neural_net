@@ -1,0 +1,14 @@
+layer.cu(598): warning #177-D: variable "n" was declared but never referenced
+
+mnist.h: In function ‘int mnist_load(const char*, const char*, mnist_data**, unsigned int*)’:
+mnist.h:136:22: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+  136 |         for (i = 0; i < image_cnt; ++i) {
+      |                    ~~^~~~~~~~~~~
+main.cu: In function ‘void train()’:
+main.cu:135:33: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+  135 |                 for (int i = 0; i < train_count; ++i) {
+      |                               ~~^~~~~~~~~~~~~
+main.cu: In function ‘void run_test_set()’:
+main.cu:201:26: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+  201 |         for (int i = 0; i < test_count; ++i) {
+      |                        ~~^~~~~~~~~~~~
